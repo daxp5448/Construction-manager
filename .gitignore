@@ -1,0 +1,22 @@
+# dependencies & build output
+node_modules/
+dist/
+dist-electron/
+release/
+.test-build/
+.tour-build/
+.tour-shots/
+test-storage/
+test-db.sqlite
+
+# local data / logs
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
